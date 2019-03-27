@@ -1,0 +1,53 @@
+# Uncomment the next line to define a global platform for your project
+  platform :ios, '8.0'
+
+def common
+  pod 'RxSwift',                '~> 4.0', inhibit_warnings: true
+  pod 'RxCocoa',                '~> 4.0'
+  pod 'RxAtomic',               '~> 4.0', :modular_headers => true
+  # other pods…
+end
+
+# Pods for StrangeAcquaintances
+target 'StrangeAcquaintances' do
+  use_frameworks!
+
+  pod 'SDWebImage', '~> 4.4.6'
+
+  pod 'YYCache', '~> 1.0.4'
+  pod 'YYModel', '~> 1.0.4'
+  pod 'YYCache', '~> 1.0.4'
+  pod 'YYImage', '~> 1.0.4'
+  pod 'YYWebImage', '~> 1.0.5'
+  pod 'YYText', '~> 1.0.7'
+  pod 'YYKeyboardManager', '~> 1.0.1'
+  pod 'YYDispatchQueuePool', '~> 1.0'
+  pod 'YYCategories', '~> 1.0.4'
+  pod 'YYAsyncLayer', '~> 1.0'
+  pod 'IQKeyboardManager', '~> 6.2.0'
+  pod 'Masonry', '~> 1.1.0'
+   pod 'ReactiveCocoa', '~> 8.0.2'
+end
+
+target 'StrangeAcquaintancesTests' do
+  inherit! :search_paths
+  # Pods for testing    
+  # pod 'RxBlocking', '~> 4.4.1'
+  # pod 'RxTest',     '~> 4.4.1'
+ # common
+end
+
+target 'StrangeAcquaintancesUITests' do
+  inherit! :search_paths
+  # Pods for testing
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '4.2'
+     end
+   end
+end
+
+
