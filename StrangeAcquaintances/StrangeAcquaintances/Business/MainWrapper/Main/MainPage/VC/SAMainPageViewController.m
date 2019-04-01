@@ -12,7 +12,9 @@
 
 #import "SAMainPageViewController.h"
 
-@interface SAMainPageViewController ()
+@interface SAMainPageViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic, strong) UITableView *testTableView;
 
 @end
 
@@ -20,6 +22,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _testTableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    [self.view addSubview:_testTableView];
+    [_testTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+    _testTableView.dataSource = self;
+    _testTableView.delegate = self;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10.f;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
+    cell.textLabel.text = [NSString stringWithFormat:@"row;%zd",indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"lt- did selected indexpath:%zd",indexPath.row);
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"lt- did deselect:%zd",indexPath.row);
 }
 
 @end
