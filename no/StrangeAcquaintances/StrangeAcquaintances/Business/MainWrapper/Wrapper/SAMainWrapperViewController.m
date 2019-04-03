@@ -13,14 +13,21 @@
 #import "SAMainWrapperViewController.h"
 #import "SAMainTabBarViewController.h"
 
-@interface SAMainWrapperViewController ()
+#import "BeeHive.h"
+#import "SAMainWrapperProtocol.h"
+
+@BeeHiveService(SAMainWrapperProtocol,SAMainWrapperViewController)
+@interface SAMainWrapperViewController ()<SAMainWrapperProtocol>
 
 @property (nonatomic, strong) SAMainTabBarViewController *tabBarController;
-
 
 @end
 
 @implementation SAMainWrapperViewController
+
++(BOOL)singleton {
+    return NO;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

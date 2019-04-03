@@ -19,13 +19,13 @@
 		41154A4A2247CE6800EBA899 /* SAMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A492247CE6800EBA899 /* SAMainTabBarViewController.m */; };
 		41154A4D2247CF0B00EBA899 /* SAMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A4C2247CF0B00EBA899 /* SAMainPageViewController.m */; };
 		41154A522247CF3B00EBA899 /* SAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A512247CF3B00EBA899 /* SAMineViewController.m */; };
-		41154A5E2247D0A700EBA899 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41154A5D2247D0A700EBA899 /* Default-568h@2x.png */; };
 		41154A642247DD6D00EBA899 /* SABaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A632247DD6D00EBA899 /* SABaseView.m */; };
 		41154A692247DDDC00EBA899 /* SAMainPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A682247DDDC00EBA899 /* SAMainPageView.m */; };
 		41154A6C2247DEC200EBA899 /* SAMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A6B2247DEC200EBA899 /* SAMineView.m */; };
 		41154A6F2247DF1A00EBA899 /* SABaseTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A6E2247DF1A00EBA899 /* SABaseTView.m */; };
 		41154A722247DF4100EBA899 /* SABaseCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A712247DF4100EBA899 /* SABaseCView.m */; };
 		41154A752247E0EC00EBA899 /* SABaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A742247E0EC00EBA899 /* SABaseNavViewController.m */; };
+		417D2A1D22544B050062C073 /* SAMainWrapperModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A1C22544B050062C073 /* SAMainWrapperModule.m */; };
 		41D5FB5922520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5A22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5B22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
@@ -116,7 +116,6 @@
 		41154A4C2247CF0B00EBA899 /* SAMainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMainPageViewController.m; sourceTree = "<group>"; };
 		41154A502247CF3B00EBA899 /* SAMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMineViewController.h; sourceTree = "<group>"; };
 		41154A512247CF3B00EBA899 /* SAMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMineViewController.m; sourceTree = "<group>"; };
-		41154A5D2247D0A700EBA899 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		41154A5F2247D79800EBA899 /* MainDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainDefine.pch; sourceTree = "<group>"; };
 		41154A622247DD6D00EBA899 /* SABaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SABaseView.h; sourceTree = "<group>"; };
 		41154A632247DD6D00EBA899 /* SABaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SABaseView.m; sourceTree = "<group>"; };
@@ -131,6 +130,8 @@
 		41154A732247E0EC00EBA899 /* SABaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SABaseNavViewController.h; sourceTree = "<group>"; };
 		41154A742247E0EC00EBA899 /* SABaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SABaseNavViewController.m; sourceTree = "<group>"; };
 		417D2A1A2253A3B20062C073 /* SAMainWrapperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMainWrapperProtocol.h; sourceTree = "<group>"; };
+		417D2A1B22544B050062C073 /* SAMainWrapperModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMainWrapperModule.h; sourceTree = "<group>"; };
+		417D2A1C22544B050062C073 /* SAMainWrapperModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMainWrapperModule.m; sourceTree = "<group>"; };
 		41D5FB5722520BCD00C0BB1F /* SARankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARankViewController.m; sourceTree = "<group>"; };
 		41D5FB5822520BCD00C0BB1F /* SARankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARankViewController.h; sourceTree = "<group>"; };
 		41D5FB5D22520BD400C0BB1F /* SABookshelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABookshelfViewController.h; sourceTree = "<group>"; };
@@ -261,7 +262,6 @@
 		41154A3D2247CA9B00EBA899 /* APPConfigure */ = {
 			isa = PBXGroup;
 			children = (
-				41154A5D2247D0A700EBA899 /* Default-568h@2x.png */,
 				41154A082247C56100EBA899 /* AppDelegate.h */,
 				41154A092247C56100EBA899 /* AppDelegate.m */,
 				41154A132247C56400EBA899 /* LaunchScreen.storyboard */,
@@ -317,6 +317,8 @@
 				41154A3B2247CA0E00EBA899 /* SAMainWrapperViewController.m */,
 				41154A482247CE6800EBA899 /* SAMainTabBarViewController.h */,
 				41154A492247CE6800EBA899 /* SAMainTabBarViewController.m */,
+				417D2A1B22544B050062C073 /* SAMainWrapperModule.h */,
+				417D2A1C22544B050062C073 /* SAMainWrapperModule.m */,
 			);
 			path = Wrapper;
 			sourceTree = "<group>";
@@ -414,8 +416,8 @@
 		41D5FB68225215A200C0BB1F /* BeeHive */ = {
 			isa = PBXGroup;
 			children = (
-				41D5FB69225215A200C0BB1F /* BHServiceManager.m */,
 				41D5FB6A225215A200C0BB1F /* BeeHive.bundle */,
+				41D5FB69225215A200C0BB1F /* BHServiceManager.m */,
 				41D5FB6B225215A200C0BB1F /* BHTimeProfiler.h */,
 				41D5FB6C225215A200C0BB1F /* BHAnnotation.m */,
 				41D5FB6D225215A200C0BB1F /* BHAppDelegate.h */,
@@ -566,7 +568,6 @@
 				41D5FB86225215A200C0BB1F /* BeeHive.bundle in Resources */,
 				41D5FB98225215A200C0BB1F /* BeeHive-Info.plist in Resources */,
 				41154A152247C56400EBA899 /* LaunchScreen.storyboard in Resources */,
-				41154A5E2247D0A700EBA899 /* Default-568h@2x.png in Resources */,
 				41154A122247C56400EBA899 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -731,6 +732,7 @@
 			files = (
 				41154A722247DF4100EBA899 /* SABaseCView.m in Sources */,
 				41D5FB95225215A200C0BB1F /* BHConfig.m in Sources */,
+				417D2A1D22544B050062C073 /* SAMainWrapperModule.m in Sources */,
 				41D5FB92225215A200C0BB1F /* BHModuleManager.m in Sources */,
 				41154A6C2247DEC200EBA899 /* SAMineView.m in Sources */,
 				41154A692247DDDC00EBA899 /* SAMainPageView.m in Sources */,
@@ -941,7 +943,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(PROJECT)$(SOURCE_PEOJECT)/APPConfigure/MainDefine.pch";
 				INFOPLIST_FILE = StrangeAcquaintances/Info.plist;
@@ -964,7 +966,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(PROJECT)$(SOURCE_PEOJECT)/APPConfigure/MainDefine.pch";
 				INFOPLIST_FILE = StrangeAcquaintances/Info.plist;

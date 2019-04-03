@@ -21,7 +21,7 @@
 
 @implementation SAMineViewController
 
-SA_DYNAMIC_VIEW;
+SA_DYNAMIC_VIEW(SAMineView);
 
 - (void)viewDidLoad {
     [super viewDidLoad];

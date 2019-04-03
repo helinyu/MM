@@ -11,9 +11,12 @@
     
 
 #import "AppDelegate.h"
-
+#import "BeeHive.h"
 #import "BHTimeProfiler.h"
 #import "SAMainWrapperProtocol.h"
+#import <mach-o/dyld.h>
+#import "BHModuleManager.h"
+#import "BHServiceManager.h"
 
 
 @interface AppDelegate ()
@@ -21,6 +24,11 @@
 @end
 
 @implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    return YES;
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -41,6 +49,11 @@
         self.window.rootViewController = navCtrl;
         [self.window makeKeyAndVisible];
     }
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
     return YES;
 }

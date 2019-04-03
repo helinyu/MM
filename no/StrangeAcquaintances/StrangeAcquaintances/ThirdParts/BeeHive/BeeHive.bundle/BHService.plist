@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>service</key>
-		<string>UserTrackServiceProtocol</string>
+		<string>SAMainWrapperProtocol</string>
 		<key>impl</key>
-		<string>BHUserTrackViewController</string>
+		<string>SAMainWrapperViewController</string>
 	</dict>
 </array>
 </plist>

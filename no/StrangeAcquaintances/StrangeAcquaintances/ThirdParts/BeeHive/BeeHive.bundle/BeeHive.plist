@@ -6,13 +6,7 @@
 	<array>
 		<dict>
 			<key>moduleClass</key>
-			<string>HomeModule</string>
-			<key>moduleLevel</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>moduleClass</key>
-			<string>TMTradeAdapter</string>
+			<string>SAMainWrapperModule</string>
 			<key>moduleLevel</key>
 			<integer>1</integer>
 		</dict>
