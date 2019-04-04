@@ -26,6 +26,11 @@
 		41154A722247DF4100EBA899 /* SABaseCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A712247DF4100EBA899 /* SABaseCView.m */; };
 		41154A752247E0EC00EBA899 /* SABaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41154A742247E0EC00EBA899 /* SABaseNavViewController.m */; };
 		417D2A1D22544B050062C073 /* SAMainWrapperModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A1C22544B050062C073 /* SAMainWrapperModule.m */; };
+		417D2A2122545F0A0062C073 /* SADataOperationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A2022545F0A0062C073 /* SADataOperationModule.m */; };
+		417D2A26225460910062C073 /* SADownloadService.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A25225460910062C073 /* SADownloadService.m */; };
+		417D2A2A2254619C0062C073 /* SADownloadItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A292254619C0062C073 /* SADownloadItemModel.m */; };
+		417D2A2E2254628C0062C073 /* SAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A2D2254628C0062C073 /* SAMainViewController.m */; };
+		417D2A332254630F0062C073 /* SAComicChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A322254630F0062C073 /* SAComicChapterModel.m */; };
 		41D5FB5922520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5A22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5B22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
@@ -65,6 +70,14 @@
 		41D5FBA1225215A200C0BB1F /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB7D225215A200C0BB1F /* BHContext.m */; };
 		41D5FBA2225215A200C0BB1F /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB7D225215A200C0BB1F /* BHContext.m */; };
 		41D5FBA3225215A200C0BB1F /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB7D225215A200C0BB1F /* BHContext.m */; };
+		41EB422B2254EA710055785E /* SALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB422A2254EA710055785E /* SALoginViewController.m */; };
+		41EB422E2254EAA70055785E /* SAUserInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB422D2254EAA70055785E /* SAUserInfoModule.m */; };
+		41EB42322254EDB40055785E /* SALoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB42312254EDB40055785E /* SALoginView.m */; };
+		41EB42382254EE820055785E /* SALoginPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB42372254EE820055785E /* SALoginPhoneView.m */; };
+		41EB423B2254EEBF0055785E /* SALoginPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB423A2254EEBF0055785E /* SALoginPasswordView.m */; };
+		41EB423E2254EF140055785E /* SALoginVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB423D2254EF140055785E /* SALoginVerificationCodeView.m */; };
+		41EB42412254F0980055785E /* SALoginThirdPartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB42402254F0980055785E /* SALoginThirdPartView.m */; };
+		41EB424522559BD00055785E /* UIView+ASAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB424422559BD00055785E /* UIView+ASAdd.m */; };
 		6B186AFCC925B68C2B18FA9F /* libPods-StrangeAcquaintancesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BE81E8A6486B0591AD1AAA /* libPods-StrangeAcquaintancesTests.a */; };
 		ACFA5B7C6C68E638C710A2BB /* Pods_StrangeAcquaintances.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8CE2D8016A99C72E24FF5A /* Pods_StrangeAcquaintances.framework */; };
 		B2F1093C068A0D0C86749180 /* libPods-StrangeAcquaintancesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D384E2B0C8AA10684AB2E3 /* libPods-StrangeAcquaintancesUITests.a */; };
@@ -132,6 +145,17 @@
 		417D2A1A2253A3B20062C073 /* SAMainWrapperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMainWrapperProtocol.h; sourceTree = "<group>"; };
 		417D2A1B22544B050062C073 /* SAMainWrapperModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMainWrapperModule.h; sourceTree = "<group>"; };
 		417D2A1C22544B050062C073 /* SAMainWrapperModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMainWrapperModule.m; sourceTree = "<group>"; };
+		417D2A1F22545F0A0062C073 /* SADataOperationModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADataOperationModule.h; sourceTree = "<group>"; };
+		417D2A2022545F0A0062C073 /* SADataOperationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADataOperationModule.m; sourceTree = "<group>"; };
+		417D2A24225460910062C073 /* SADownloadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADownloadService.h; sourceTree = "<group>"; };
+		417D2A25225460910062C073 /* SADownloadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADownloadService.m; sourceTree = "<group>"; };
+		417D2A272254610B0062C073 /* SADownloadServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADownloadServiceProtocol.h; sourceTree = "<group>"; };
+		417D2A282254619C0062C073 /* SADownloadItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SADownloadItemModel.h; sourceTree = "<group>"; };
+		417D2A292254619C0062C073 /* SADownloadItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADownloadItemModel.m; sourceTree = "<group>"; };
+		417D2A2C2254628C0062C073 /* SAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMainViewController.h; sourceTree = "<group>"; };
+		417D2A2D2254628C0062C073 /* SAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMainViewController.m; sourceTree = "<group>"; };
+		417D2A312254630F0062C073 /* SAComicChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAComicChapterModel.h; sourceTree = "<group>"; };
+		417D2A322254630F0062C073 /* SAComicChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAComicChapterModel.m; sourceTree = "<group>"; };
 		41D5FB5722520BCD00C0BB1F /* SARankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARankViewController.m; sourceTree = "<group>"; };
 		41D5FB5822520BCD00C0BB1F /* SARankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARankViewController.h; sourceTree = "<group>"; };
 		41D5FB5D22520BD400C0BB1F /* SABookshelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABookshelfViewController.h; sourceTree = "<group>"; };
@@ -161,6 +185,23 @@
 		41D5FB80225215A200C0BB1F /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
 		41D5FB81225215A200C0BB1F /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
 		41D5FB82225215A200C0BB1F /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		41EB42292254EA710055785E /* SALoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginViewController.h; sourceTree = "<group>"; };
+		41EB422A2254EA710055785E /* SALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginViewController.m; sourceTree = "<group>"; };
+		41EB422C2254EAA70055785E /* SAUserInfoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAUserInfoModule.h; sourceTree = "<group>"; };
+		41EB422D2254EAA70055785E /* SAUserInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAUserInfoModule.m; sourceTree = "<group>"; };
+		41EB422F2254EAF90055785E /* SALoginProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginProtocol.h; sourceTree = "<group>"; };
+		41EB42302254EDB40055785E /* SALoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginView.h; sourceTree = "<group>"; };
+		41EB42312254EDB40055785E /* SALoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginView.m; sourceTree = "<group>"; };
+		41EB42362254EE820055785E /* SALoginPhoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginPhoneView.h; sourceTree = "<group>"; };
+		41EB42372254EE820055785E /* SALoginPhoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginPhoneView.m; sourceTree = "<group>"; };
+		41EB42392254EEBF0055785E /* SALoginPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginPasswordView.h; sourceTree = "<group>"; };
+		41EB423A2254EEBF0055785E /* SALoginPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginPasswordView.m; sourceTree = "<group>"; };
+		41EB423C2254EF140055785E /* SALoginVerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginVerificationCodeView.h; sourceTree = "<group>"; };
+		41EB423D2254EF140055785E /* SALoginVerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginVerificationCodeView.m; sourceTree = "<group>"; };
+		41EB423F2254F0980055785E /* SALoginThirdPartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SALoginThirdPartView.h; sourceTree = "<group>"; };
+		41EB42402254F0980055785E /* SALoginThirdPartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SALoginThirdPartView.m; sourceTree = "<group>"; };
+		41EB424322559BD00055785E /* UIView+ASAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ASAdd.h"; sourceTree = "<group>"; };
+		41EB424422559BD00055785E /* UIView+ASAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ASAdd.m"; sourceTree = "<group>"; };
 		738AE23BF4662F32BA1B62A7 /* Pods-StrangeAcquaintances.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrangeAcquaintances.release.xcconfig"; path = "Target Support Files/Pods-StrangeAcquaintances/Pods-StrangeAcquaintances.release.xcconfig"; sourceTree = "<group>"; };
 		7D8CE2D8016A99C72E24FF5A /* Pods_StrangeAcquaintances.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrangeAcquaintances.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829A2C3C92CFCBDC599838E3 /* Pods-StrangeAcquaintancesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrangeAcquaintancesUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrangeAcquaintancesUITests/Pods-StrangeAcquaintancesUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -234,7 +275,7 @@
 			children = (
 				41154A162247C56400EBA899 /* Info.plist */,
 				41D5FB672252158200C0BB1F /* ThirdParts */,
-				41154A412247CB3000EBA899 /* Base */,
+				41154A412247CB3000EBA899 /* CommonComponent */,
 				41154A3F2247CABE00EBA899 /* Business */,
 				41154A3D2247CA9B00EBA899 /* APPConfigure */,
 			);
@@ -275,6 +316,8 @@
 		41154A3F2247CABE00EBA899 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				41EB42282254EA620055785E /* Login */,
+				417D2A2F225462A70062C073 /* Common */,
 				41154A402247CB0100EBA899 /* MainWrapper */,
 			);
 			path = Business;
@@ -289,13 +332,13 @@
 			path = MainWrapper;
 			sourceTree = "<group>";
 		};
-		41154A412247CB3000EBA899 /* Base */ = {
+		41154A412247CB3000EBA899 /* CommonComponent */ = {
 			isa = PBXGroup;
 			children = (
 				41154A612247DD4C00EBA899 /* View */,
 				41154A602247DD4100EBA899 /* VC */,
 			);
-			path = Base;
+			path = CommonComponent;
 			sourceTree = "<group>";
 		};
 		41154A4E2247CF1900EBA899 /* Main */ = {
@@ -374,6 +417,8 @@
 			children = (
 				41154A4B2247CF0B00EBA899 /* SAMainPageViewController.h */,
 				41154A4C2247CF0B00EBA899 /* SAMainPageViewController.m */,
+				417D2A2C2254628C0062C073 /* SAMainViewController.h */,
+				417D2A2D2254628C0062C073 /* SAMainViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -385,6 +430,55 @@
 				41154A682247DDDC00EBA899 /* SAMainPageView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		417D2A1E22545EED0062C073 /* DataOperation */ = {
+			isa = PBXGroup;
+			children = (
+				417D2A23225460710062C073 /* Download */,
+				417D2A222254605A0062C073 /* Module */,
+			);
+			path = DataOperation;
+			sourceTree = "<group>";
+		};
+		417D2A222254605A0062C073 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				417D2A1F22545F0A0062C073 /* SADataOperationModule.h */,
+				417D2A2022545F0A0062C073 /* SADataOperationModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		417D2A23225460710062C073 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				417D2A24225460910062C073 /* SADownloadService.h */,
+				417D2A25225460910062C073 /* SADownloadService.m */,
+				417D2A272254610B0062C073 /* SADownloadServiceProtocol.h */,
+				417D2A282254619C0062C073 /* SADownloadItemModel.h */,
+				417D2A292254619C0062C073 /* SADownloadItemModel.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		417D2A2F225462A70062C073 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				41EB424222559BB10055785E /* Category */,
+				417D2A1E22545EED0062C073 /* DataOperation */,
+				417D2A30225462B60062C073 /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		417D2A30225462B60062C073 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				417D2A312254630F0062C073 /* SAComicChapterModel.h */,
+				417D2A322254630F0062C073 /* SAComicChapterModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		41D5FB5622520BCD00C0BB1F /* Rank */ = {
@@ -443,6 +537,53 @@
 				41D5FB82225215A200C0BB1F /* BHConfig.h */,
 			);
 			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		41EB42282254EA620055785E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				41EB42352254EE620055785E /* Controller */,
+				41EB42342254EE5C0055785E /* View */,
+				41EB422C2254EAA70055785E /* SAUserInfoModule.h */,
+				41EB422D2254EAA70055785E /* SAUserInfoModule.m */,
+				41EB422F2254EAF90055785E /* SALoginProtocol.h */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		41EB42342254EE5C0055785E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41EB42302254EDB40055785E /* SALoginView.h */,
+				41EB42312254EDB40055785E /* SALoginView.m */,
+				41EB42362254EE820055785E /* SALoginPhoneView.h */,
+				41EB42372254EE820055785E /* SALoginPhoneView.m */,
+				41EB42392254EEBF0055785E /* SALoginPasswordView.h */,
+				41EB423A2254EEBF0055785E /* SALoginPasswordView.m */,
+				41EB423C2254EF140055785E /* SALoginVerificationCodeView.h */,
+				41EB423D2254EF140055785E /* SALoginVerificationCodeView.m */,
+				41EB423F2254F0980055785E /* SALoginThirdPartView.h */,
+				41EB42402254F0980055785E /* SALoginThirdPartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41EB42352254EE620055785E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41EB42292254EA710055785E /* SALoginViewController.h */,
+				41EB422A2254EA710055785E /* SALoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41EB424222559BB10055785E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				41EB424322559BD00055785E /* UIView+ASAdd.h */,
+				41EB424422559BD00055785E /* UIView+ASAdd.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		798905FC859598F2FEC3EC97 /* Pods */ = {
@@ -731,14 +872,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				41154A722247DF4100EBA899 /* SABaseCView.m in Sources */,
+				417D2A2E2254628C0062C073 /* SAMainViewController.m in Sources */,
 				41D5FB95225215A200C0BB1F /* BHConfig.m in Sources */,
 				417D2A1D22544B050062C073 /* SAMainWrapperModule.m in Sources */,
 				41D5FB92225215A200C0BB1F /* BHModuleManager.m in Sources */,
 				41154A6C2247DEC200EBA899 /* SAMineView.m in Sources */,
+				41EB422E2254EAA70055785E /* SAUserInfoModule.m in Sources */,
 				41154A692247DDDC00EBA899 /* SAMainPageView.m in Sources */,
+				41EB424522559BD00055785E /* UIView+ASAdd.m in Sources */,
 				41154A472247CC7C00EBA899 /* SABaseTabBarViewController.m in Sources */,
 				41154A4D2247CF0B00EBA899 /* SAMainPageViewController.m in Sources */,
 				41154A3C2247CA0E00EBA899 /* SAMainWrapperViewController.m in Sources */,
+				41EB42412254F0980055785E /* SALoginThirdPartView.m in Sources */,
+				417D2A2A2254619C0062C073 /* SADownloadItemModel.m in Sources */,
 				41D5FB5F22520BD500C0BB1F /* SABookshelfViewController.m in Sources */,
 				41D5FB5922520BCD00C0BB1F /* SARankViewController.m in Sources */,
 				41D5FB83225215A200C0BB1F /* BHServiceManager.m in Sources */,
@@ -749,12 +895,20 @@
 				41D5FBA1225215A200C0BB1F /* BHContext.m in Sources */,
 				41D5FB9E225215A200C0BB1F /* BHTimeProfiler.m in Sources */,
 				41154A522247CF3B00EBA899 /* SAMineViewController.m in Sources */,
+				41EB42322254EDB40055785E /* SALoginView.m in Sources */,
+				417D2A26225460910062C073 /* SADownloadService.m in Sources */,
+				41EB42382254EE820055785E /* SALoginPhoneView.m in Sources */,
 				41154A0A2247C56100EBA899 /* AppDelegate.m in Sources */,
 				41D5FB89225215A200C0BB1F /* BHAnnotation.m in Sources */,
 				41D5FB8F225215A200C0BB1F /* BeeHive.m in Sources */,
+				41EB423E2254EF140055785E /* SALoginVerificationCodeView.m in Sources */,
 				41154A6F2247DF1A00EBA899 /* SABaseTView.m in Sources */,
 				41154A442247CB4500EBA899 /* SABaseViewController.m in Sources */,
+				417D2A332254630F0062C073 /* SAComicChapterModel.m in Sources */,
+				41EB423B2254EEBF0055785E /* SALoginPasswordView.m in Sources */,
 				41154A642247DD6D00EBA899 /* SABaseView.m in Sources */,
+				417D2A2122545F0A0062C073 /* SADataOperationModule.m in Sources */,
+				41EB422B2254EA710055785E /* SALoginViewController.m in Sources */,
 				41D5FB9B225215A200C0BB1F /* BHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

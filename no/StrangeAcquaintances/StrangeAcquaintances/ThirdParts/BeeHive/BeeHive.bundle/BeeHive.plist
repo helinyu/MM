@@ -10,6 +10,18 @@
 			<key>moduleLevel</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>moduleClass</key>
+			<string>SADataOperationModule</string>
+			<key>moduleLevel</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>moduleClass</key>
+			<string>SAUserInfoModule</string>
+			<key>moduleLevel</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 </dict>
 </plist>
