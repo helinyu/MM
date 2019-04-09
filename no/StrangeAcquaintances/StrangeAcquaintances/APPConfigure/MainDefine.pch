@@ -13,8 +13,59 @@
 #ifndef MainDefine_pch
 #define MainDefine_pch
 
+#pragma mark - common header file
+
 #import "SABaseTView.h"
 #import "SABaseCView.h"
+#import "UIView+SAAdd.h"
+#import <Masonry/Masonry.h>
+#import "BeeHive.h"
+#import <MyLayout/MyLayout.h>
+#import "SABaseNavViewController.h"
+
+#pragma mark - weak
+
+#define W_S __weak typeof(self) weakSelf = self
+#define S_S __strong typeof(self) strongSelf = weakSelf
+#define weakself(self)  __weak __typeof(self) weakSelf = self
+#define strongself(self)  __strong __typeof(self) self = weakSelf
+
+#define kScreenBounds [UIScreen mainScreen].bounds
+#define kScreenSize kScreenBounds.size
+#define kScreenWidth kScreenSize.width
+#define kScreenHeight kScreenSize.height
+#define kRatioWidth (kScreenWidth/375.f)
+#define kRatioHeight (kScreenWidth/667.f)
+
+#define kScreenMaxLength (MAX(kScreenWidth, kScreenHeight))
+
+#define kWidth(a)  (IS_IPHONE ? ((a) / 375.0 * SCREEN_WIDTH) : a)
+#define kHeight(a) (IS_IPHONE ? ((a) / 667.0 * SCREEN_HEIGHT) : a)
+
+#define kIsIphone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define kIsIpad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define kIS_IPHONE_X (IS_IPHONE && kScreenMaxLength == 812.0)
+#define kIS_IPHONE_XR_OR_XSMAX (IS_IPHONE && kScreenMaxLength == 896.0)
+#define kIS_IPHONE_X_OR_GREATER (IS_IPHONE && kScreenMaxLength >= 812.0)
+#define kIS_IPHONE_4_OR_LESS (IS_IPHONE && kScreenMaxLength < 568.0)
+#define kIS_IPHONE_5_OR_5S (IS_IPHONE && kScreenMaxLength == 568.0)
+#define kIS_IPHONE_6_OR_6S (IS_IPHONE && kScreenMaxLength == 667.0)
+#define kIS_IPHONE_6P_OR_6SP (IS_IPHONE && kScreenMaxLength == 736.0)
+#define kIS_IPHONE_5_OR_LESS (IS_IPHONE && kScreenMaxLength <= 568.0)
+#define kIS_IPHONE_6_OR_LESS (IS_IPHONE && kScreenMaxLength <= 667.0)
+#define kIS_IPHONE_6_OR_GREATER (IS_IPHONE && kScreenMaxLength >= 667.0)
+#define kIS_IPAD_PRO (IS_IPAD && kScreenMaxLength >= 667.0)
+
+#define kBottomFix (kIS_IPHONE_X_OR_GREATER ? 34.f :0.f)
+#define kTabBarHeight (kIS_IPHONE_X_OR_GREATER ? 88.f :49.f)
+#define kTopFix (kIS_IPHONE_X_OR_GREATER ? 24.f : 0.f)
+static CGFloat const kStatusHeight = 20.f;
+#define kStatusTop (kIS_IPHONE_X_OR_GREATER ? 44.f : kStatusHeight)
+static CGFloat const kNavgtationHeight = 44.f;
+#define kNavgationStatusHeight (kIS_IPHONE_X_OR_GREATER ? 88.f : 64.f)
+
+#define kSystemVersion [[UIDevice currentDevice].systemVersion floatValue]
 
 #define SA_DYNAMIC_VIEW(SAView) \
 @dynamic view; \
@@ -24,5 +75,7 @@
 }
 
 //#define kTestColor @"67 191 233";// 天空浪 SkyBlue
+
+//#define OBTAIN_VC(protocol) [[BeeHive shareInstance] createService:@protocol(protocol)]
 
 #endif /* MainDefine_pch */

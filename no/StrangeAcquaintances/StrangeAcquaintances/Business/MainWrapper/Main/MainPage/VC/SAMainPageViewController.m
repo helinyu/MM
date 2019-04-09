@@ -11,6 +11,7 @@
     
 
 #import "SAMainPageViewController.h"
+#import "SALoginProtocol.h"
 
 @interface SAMainPageViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -29,6 +30,16 @@
     _testTableView.dataSource = self;
     _testTableView.delegate = self;
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    UIViewController<SALoginProtocol> *vc = [[BeeHive shareInstance] createService:@protocol(SALoginProtocol)];
+    SABaseNavViewController *navVc = [[SABaseNavViewController alloc] initWithRootViewController:vc];
+    [self presentViewController:navVc animated:YES completion:nil];
+}
+
+#pragma mark - tableview datasource & delegate
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 10.f;

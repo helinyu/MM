@@ -11,6 +11,7 @@
     
 
 #import "SAMainViewController.h"
+#import "SALoginProtocol.h"
 
 @interface SAMainViewController ()
 

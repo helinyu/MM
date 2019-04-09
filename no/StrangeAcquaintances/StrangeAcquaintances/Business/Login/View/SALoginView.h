@@ -10,11 +10,11 @@
 //
     
 
-#import <UIKit/UIKit.h>
+#import "SABaseView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SALoginView : UIView
+@interface SALoginView : SABaseView
 
 @end
 

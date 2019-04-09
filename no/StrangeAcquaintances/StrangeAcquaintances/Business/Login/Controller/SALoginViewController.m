@@ -31,6 +31,8 @@ SA_DYNAMIC_VIEW(SALoginView);
     [super viewDidLoad];
     
     self.title = @"登录";
+    
+    self.view.backgroundColor = [UIColor yellowColor];
 
 }
 

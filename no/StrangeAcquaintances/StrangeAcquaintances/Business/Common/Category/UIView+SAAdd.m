@@ -1,18 +1,18 @@
 //
-//  UIView+ASAdd.m
+//  UIView+SAAdd.m
 //  StrangeAcquaintances
 //
 //  独学而无友 则孤陋寡闻
 //
-//  Created by helinyu on 2019/4/4 09:56 .
+//  Created by helinyu on 2019/4/4 16:34 .
 //  Copyright © 2019 Aka. All rights reserved.
 //  xcode 10.14 .
 //
     
 
-#import "UIView+ASAdd.h"
+#import "UIView+SAAdd.h"
 
-@implementation UIView (ASAdd)
+@implementation UIView (SAAdd)
 
 - (void)addSubviews:(NSArray<UIView *> *)subviews {
     if (subviews.count <=0) {
@@ -23,6 +23,6 @@
             [self addSubview:subview];
         }
     }
- }
+}
 
 @end
