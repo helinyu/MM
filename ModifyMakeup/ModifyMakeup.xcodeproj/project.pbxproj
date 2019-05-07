@@ -15,6 +15,42 @@
 		41382978228132E300793AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382977228132E300793AFC /* main.m */; };
 		41382982228132E300793AFC /* ModifyMakeupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382981228132E300793AFC /* ModifyMakeupTests.m */; };
 		4138298D228132E300793AFC /* ModifyMakeupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138298C228132E300793AFC /* ModifyMakeupUITests.m */; };
+		413829B5228137E200793AFC /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299C228137E200793AFC /* BHServiceManager.m */; };
+		413829B6228137E200793AFC /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299C228137E200793AFC /* BHServiceManager.m */; };
+		413829B7228137E200793AFC /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299C228137E200793AFC /* BHServiceManager.m */; };
+		413829B8228137E200793AFC /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4138299D228137E200793AFC /* BeeHive.bundle */; };
+		413829B9228137E200793AFC /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4138299D228137E200793AFC /* BeeHive.bundle */; };
+		413829BA228137E200793AFC /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4138299D228137E200793AFC /* BeeHive.bundle */; };
+		413829BB228137E200793AFC /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299F228137E200793AFC /* BHAnnotation.m */; };
+		413829BC228137E200793AFC /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299F228137E200793AFC /* BHAnnotation.m */; };
+		413829BD228137E200793AFC /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138299F228137E200793AFC /* BHAnnotation.m */; };
+		413829BE228137E200793AFC /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A2228137E200793AFC /* BHWatchDog.m */; };
+		413829BF228137E200793AFC /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A2228137E200793AFC /* BHWatchDog.m */; };
+		413829C0228137E200793AFC /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A2228137E200793AFC /* BHWatchDog.m */; };
+		413829C1228137E200793AFC /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A3228137E200793AFC /* BeeHive.m */; };
+		413829C2228137E200793AFC /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A3228137E200793AFC /* BeeHive.m */; };
+		413829C3228137E200793AFC /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A3228137E200793AFC /* BeeHive.m */; };
+		413829C4228137E200793AFC /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A5228137E200793AFC /* BHModuleManager.m */; };
+		413829C5228137E200793AFC /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A5228137E200793AFC /* BHModuleManager.m */; };
+		413829C6228137E200793AFC /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A5228137E200793AFC /* BHModuleManager.m */; };
+		413829C7228137E200793AFC /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A6228137E200793AFC /* BHConfig.m */; };
+		413829C8228137E200793AFC /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A6228137E200793AFC /* BHConfig.m */; };
+		413829C9228137E200793AFC /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829A6228137E200793AFC /* BHConfig.m */; };
+		413829CA228137E200793AFC /* BeeHive-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413829A8228137E200793AFC /* BeeHive-Info.plist */; };
+		413829CB228137E200793AFC /* BeeHive-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413829A8228137E200793AFC /* BeeHive-Info.plist */; };
+		413829CC228137E200793AFC /* BeeHive-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413829A8228137E200793AFC /* BeeHive-Info.plist */; };
+		413829CD228137E200793AFC /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AA228137E200793AFC /* BHAppDelegate.m */; };
+		413829CE228137E200793AFC /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AA228137E200793AFC /* BHAppDelegate.m */; };
+		413829CF228137E200793AFC /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AA228137E200793AFC /* BHAppDelegate.m */; };
+		413829D0228137E200793AFC /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AD228137E200793AFC /* BHTimeProfiler.m */; };
+		413829D1228137E200793AFC /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AD228137E200793AFC /* BHTimeProfiler.m */; };
+		413829D2228137E200793AFC /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829AD228137E200793AFC /* BHTimeProfiler.m */; };
+		413829D3228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
+		413829D4228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
+		413829D5228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
+		49A7DA4F62CA3C51FD1FB92E /* libPods-ModifyMakeupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */; };
+		591F1662DB65B2F80DBB1C77 /* libPods-ModifyMakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */; };
+		6BD8FF5924D7A2B58F785F2F /* libPods-ModifyMakeupUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3127593032A0E31CF29382A3 /* Pods-ModifyMakeup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeup.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup.release.xcconfig"; sourceTree = "<group>"; };
 		41382965228132E100793AFC /* ModifyMakeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModifyMakeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41382968228132E100793AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41382969228132E100793AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +89,38 @@
 		41382988228132E300793AFC /* ModifyMakeupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModifyMakeupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4138298C228132E300793AFC /* ModifyMakeupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyMakeupUITests.m; sourceTree = "<group>"; };
 		4138298E228132E300793AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4138299C228137E200793AFC /* BHServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHServiceManager.m; sourceTree = "<group>"; };
+		4138299D228137E200793AFC /* BeeHive.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BeeHive.bundle; sourceTree = "<group>"; };
+		4138299E228137E200793AFC /* BHTimeProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTimeProfiler.h; sourceTree = "<group>"; };
+		4138299F228137E200793AFC /* BHAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAnnotation.m; sourceTree = "<group>"; };
+		413829A0228137E200793AFC /* BHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
+		413829A1228137E200793AFC /* BHContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHContext.h; sourceTree = "<group>"; };
+		413829A2228137E200793AFC /* BHWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHWatchDog.m; sourceTree = "<group>"; };
+		413829A3228137E200793AFC /* BeeHive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeHive.m; sourceTree = "<group>"; };
+		413829A4228137E200793AFC /* BHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHCommon.h; sourceTree = "<group>"; };
+		413829A5228137E200793AFC /* BHModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHModuleManager.m; sourceTree = "<group>"; };
+		413829A6228137E200793AFC /* BHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConfig.m; sourceTree = "<group>"; };
+		413829A7228137E200793AFC /* BHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDefines.h; sourceTree = "<group>"; };
+		413829A8228137E200793AFC /* BeeHive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		413829A9228137E200793AFC /* BHServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceManager.h; sourceTree = "<group>"; };
+		413829AA228137E200793AFC /* BHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
+		413829AB228137E200793AFC /* BHModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleProtocol.h; sourceTree = "<group>"; };
+		413829AC228137E200793AFC /* BHAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAnnotation.h; sourceTree = "<group>"; };
+		413829AD228137E200793AFC /* BHTimeProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTimeProfiler.m; sourceTree = "<group>"; };
+		413829AE228137E200793AFC /* BeeHive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeHive.h; sourceTree = "<group>"; };
+		413829AF228137E200793AFC /* BHWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHWatchDog.h; sourceTree = "<group>"; };
+		413829B0228137E200793AFC /* BHContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHContext.m; sourceTree = "<group>"; };
+		413829B1228137E200793AFC /* BHServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHServiceProtocol.h; sourceTree = "<group>"; };
+		413829B2228137E200793AFC /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
+		413829B3228137E200793AFC /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
+		413829B4228137E200793AFC /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68346A255764474CF4260544 /* Pods-ModifyMakeupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupUITests.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupUITests/Pods-ModifyMakeupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		756B21D1D62002CD5ADBC6D0 /* Pods-ModifyMakeupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupTests.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupTests/Pods-ModifyMakeupTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeupUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13E8A131FC6F5E8D9388F11 /* Pods-ModifyMakeupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupUITests/Pods-ModifyMakeupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E50139925FC1649E0DD000 /* Pods-ModifyMakeupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupTests.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupTests/Pods-ModifyMakeupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F956AD2D3599F952A76DD872 /* Pods-ModifyMakeup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeup.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591F1662DB65B2F80DBB1C77 /* libPods-ModifyMakeup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A7DA4F62CA3C51FD1FB92E /* libPods-ModifyMakeupTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +144,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD8FF5924D7A2B58F785F2F /* libPods-ModifyMakeupUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1103DA60566148ACC55E8BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */,
+				105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */,
+				9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27526E27405319C79CC2172F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F956AD2D3599F952A76DD872 /* Pods-ModifyMakeup.debug.xcconfig */,
+				3127593032A0E31CF29382A3 /* Pods-ModifyMakeup.release.xcconfig */,
+				F3E50139925FC1649E0DD000 /* Pods-ModifyMakeupTests.debug.xcconfig */,
+				756B21D1D62002CD5ADBC6D0 /* Pods-ModifyMakeupTests.release.xcconfig */,
+				A13E8A131FC6F5E8D9388F11 /* Pods-ModifyMakeupUITests.debug.xcconfig */,
+				68346A255764474CF4260544 /* Pods-ModifyMakeupUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4138295C228132E100793AFC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,8 @@
 				41382980228132E300793AFC /* ModifyMakeupTests */,
 				4138298B228132E300793AFC /* ModifyMakeupUITests */,
 				41382966228132E100793AFC /* Products */,
+				27526E27405319C79CC2172F /* Pods */,
+				1103DA60566148ACC55E8BEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +199,7 @@
 		41382967228132E100793AFC /* ModifyMakeup */ = {
 			isa = PBXGroup;
 			children = (
+				4138299A228137CA00793AFC /* ThirdParts */,
 				41382968228132E100793AFC /* AppDelegate.h */,
 				41382969228132E100793AFC /* AppDelegate.m */,
 				4138296B228132E100793AFC /* ViewController.h */,
@@ -132,6 +231,46 @@
 			path = ModifyMakeupUITests;
 			sourceTree = "<group>";
 		};
+		4138299A228137CA00793AFC /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				4138299B228137E200793AFC /* BeeHive */,
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		4138299B228137E200793AFC /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				4138299C228137E200793AFC /* BHServiceManager.m */,
+				4138299D228137E200793AFC /* BeeHive.bundle */,
+				4138299E228137E200793AFC /* BHTimeProfiler.h */,
+				4138299F228137E200793AFC /* BHAnnotation.m */,
+				413829A0228137E200793AFC /* BHAppDelegate.h */,
+				413829A1228137E200793AFC /* BHContext.h */,
+				413829A2228137E200793AFC /* BHWatchDog.m */,
+				413829A3228137E200793AFC /* BeeHive.m */,
+				413829A4228137E200793AFC /* BHCommon.h */,
+				413829A5228137E200793AFC /* BHModuleManager.m */,
+				413829A6228137E200793AFC /* BHConfig.m */,
+				413829A7228137E200793AFC /* BHDefines.h */,
+				413829A8228137E200793AFC /* BeeHive-Info.plist */,
+				413829A9228137E200793AFC /* BHServiceManager.h */,
+				413829AA228137E200793AFC /* BHAppDelegate.m */,
+				413829AB228137E200793AFC /* BHModuleProtocol.h */,
+				413829AC228137E200793AFC /* BHAnnotation.h */,
+				413829AD228137E200793AFC /* BHTimeProfiler.m */,
+				413829AE228137E200793AFC /* BeeHive.h */,
+				413829AF228137E200793AFC /* BHWatchDog.h */,
+				413829B0228137E200793AFC /* BHContext.m */,
+				413829B1228137E200793AFC /* BHServiceProtocol.h */,
+				413829B2228137E200793AFC /* BeeHive-Prefix.pch */,
+				413829B3228137E200793AFC /* BHModuleManager.h */,
+				413829B4228137E200793AFC /* BHConfig.h */,
+			);
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41382991228132E300793AFC /* Build configuration list for PBXNativeTarget "ModifyMakeup" */;
 			buildPhases = (
+				E38954CA1F8A911A5898F4D8 /* [CP] Check Pods Manifest.lock */,
 				41382961228132E100793AFC /* Sources */,
 				41382962228132E100793AFC /* Frameworks */,
 				41382963228132E100793AFC /* Resources */,
@@ -156,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41382994228132E300793AFC /* Build configuration list for PBXNativeTarget "ModifyMakeupTests" */;
 			buildPhases = (
+				4BAEAF36F0D79F10787BDA4A /* [CP] Check Pods Manifest.lock */,
 				41382979228132E300793AFC /* Sources */,
 				4138297A228132E300793AFC /* Frameworks */,
 				4138297B228132E300793AFC /* Resources */,
@@ -174,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41382997228132E300793AFC /* Build configuration list for PBXNativeTarget "ModifyMakeupUITests" */;
 			buildPhases = (
+				360F3048CD1591D8D29DF970 /* [CP] Check Pods Manifest.lock */,
 				41382984228132E300793AFC /* Sources */,
 				41382985228132E300793AFC /* Frameworks */,
 				41382986228132E300793AFC /* Resources */,
@@ -237,6 +379,8 @@
 			files = (
 				41382975228132E300793AFC /* LaunchScreen.storyboard in Resources */,
 				41382972228132E300793AFC /* Assets.xcassets in Resources */,
+				413829CA228137E200793AFC /* BeeHive-Info.plist in Resources */,
+				413829B8228137E200793AFC /* BeeHive.bundle in Resources */,
 				41382970228132E100793AFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +389,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413829B9228137E200793AFC /* BeeHive.bundle in Resources */,
+				413829CB228137E200793AFC /* BeeHive-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,19 +398,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413829BA228137E200793AFC /* BeeHive.bundle in Resources */,
+				413829CC228137E200793AFC /* BeeHive-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		360F3048CD1591D8D29DF970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModifyMakeupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BAEAF36F0D79F10787BDA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModifyMakeupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38954CA1F8A911A5898F4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModifyMakeup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41382961228132E100793AFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413829CD228137E200793AFC /* BHAppDelegate.m in Sources */,
+				413829D3228137E200793AFC /* BHContext.m in Sources */,
 				4138296D228132E100793AFC /* ViewController.m in Sources */,
+				413829BB228137E200793AFC /* BHAnnotation.m in Sources */,
+				413829BE228137E200793AFC /* BHWatchDog.m in Sources */,
 				41382978228132E300793AFC /* main.m in Sources */,
 				4138296A228132E100793AFC /* AppDelegate.m in Sources */,
+				413829C7228137E200793AFC /* BHConfig.m in Sources */,
+				413829B5228137E200793AFC /* BHServiceManager.m in Sources */,
+				413829C1228137E200793AFC /* BeeHive.m in Sources */,
+				413829C4228137E200793AFC /* BHModuleManager.m in Sources */,
+				413829D0228137E200793AFC /* BHTimeProfiler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +498,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413829CE228137E200793AFC /* BHAppDelegate.m in Sources */,
 				41382982228132E300793AFC /* ModifyMakeupTests.m in Sources */,
+				413829C5228137E200793AFC /* BHModuleManager.m in Sources */,
+				413829C2228137E200793AFC /* BeeHive.m in Sources */,
+				413829B6228137E200793AFC /* BHServiceManager.m in Sources */,
+				413829D4228137E200793AFC /* BHContext.m in Sources */,
+				413829C8228137E200793AFC /* BHConfig.m in Sources */,
+				413829D1228137E200793AFC /* BHTimeProfiler.m in Sources */,
+				413829BF228137E200793AFC /* BHWatchDog.m in Sources */,
+				413829BC228137E200793AFC /* BHAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +515,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413829CF228137E200793AFC /* BHAppDelegate.m in Sources */,
 				4138298D228132E300793AFC /* ModifyMakeupUITests.m in Sources */,
+				413829C6228137E200793AFC /* BHModuleManager.m in Sources */,
+				413829C3228137E200793AFC /* BeeHive.m in Sources */,
+				413829B7228137E200793AFC /* BHServiceManager.m in Sources */,
+				413829D5228137E200793AFC /* BHContext.m in Sources */,
+				413829C9228137E200793AFC /* BHConfig.m in Sources */,
+				413829D2228137E200793AFC /* BHTimeProfiler.m in Sources */,
+				413829C0228137E200793AFC /* BHWatchDog.m in Sources */,
+				413829BD228137E200793AFC /* BHAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +677,7 @@
 		};
 		41382992228132E300793AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F956AD2D3599F952A76DD872 /* Pods-ModifyMakeup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +695,7 @@
 		};
 		41382993228132E300793AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3127593032A0E31CF29382A3 /* Pods-ModifyMakeup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +713,7 @@
 		};
 		41382995228132E300793AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E50139925FC1649E0DD000 /* Pods-ModifyMakeupTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +733,7 @@
 		};
 		41382996228132E300793AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756B21D1D62002CD5ADBC6D0 /* Pods-ModifyMakeupTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +753,7 @@
 		};
 		41382998228132E300793AFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13E8A131FC6F5E8D9388F11 /* Pods-ModifyMakeupUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
@@ -523,6 +772,7 @@
 		};
 		41382999228132E300793AFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68346A255764474CF4260544 /* Pods-ModifyMakeupUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
