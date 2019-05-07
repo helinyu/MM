@@ -39,4 +39,17 @@
     _tabBarController.view.backgroundColor = [UIColor purpleColor];
 }
 
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self toLoginView];
+    });
+}
+
+- (void)toLoginView {
+    
+    [SARouter jumpToWithNavVC:SA_VC_IndexTypeLogin isPresentFromVC:self then:nil];
+}
+
 @end

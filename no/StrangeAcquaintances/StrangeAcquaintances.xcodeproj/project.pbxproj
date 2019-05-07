@@ -32,6 +32,11 @@
 		417D2A2A2254619C0062C073 /* SADownloadItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A292254619C0062C073 /* SADownloadItemModel.m */; };
 		417D2A2E2254628C0062C073 /* SAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A2D2254628C0062C073 /* SAMainViewController.m */; };
 		417D2A332254630F0062C073 /* SAComicChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D2A322254630F0062C073 /* SAComicChapterModel.m */; };
+		41974AFD2271DCC000E736BA /* SARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41974AFC2271DCC000E736BA /* SARouter.m */; };
+		41974B032271E5FC00E736BA /* SARegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41974B022271E5FC00E736BA /* SARegisterViewController.m */; };
+		41974B062271E61800E736BA /* SARegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41974B052271E61800E736BA /* SARegisterView.m */; };
+		41974B092271E70200E736BA /* SARetrievePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41974B082271E70200E736BA /* SARetrievePasswordViewController.m */; };
+		41974B0C2271E72400E736BA /* SARetrievePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41974B0B2271E72400E736BA /* SARetrievePasswordView.m */; };
 		41D5FB5922520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5A22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
 		41D5FB5B22520BCD00C0BB1F /* SARankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5FB5722520BCD00C0BB1F /* SARankViewController.m */; };
@@ -158,6 +163,18 @@
 		417D2A2D2254628C0062C073 /* SAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMainViewController.m; sourceTree = "<group>"; };
 		417D2A312254630F0062C073 /* SAComicChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAComicChapterModel.h; sourceTree = "<group>"; };
 		417D2A322254630F0062C073 /* SAComicChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAComicChapterModel.m; sourceTree = "<group>"; };
+		41974AFB2271DCC000E736BA /* SARouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARouter.h; sourceTree = "<group>"; };
+		41974AFC2271DCC000E736BA /* SARouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARouter.m; sourceTree = "<group>"; };
+		41974B012271E5FC00E736BA /* SARegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARegisterViewController.h; sourceTree = "<group>"; };
+		41974B022271E5FC00E736BA /* SARegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARegisterViewController.m; sourceTree = "<group>"; };
+		41974B042271E61800E736BA /* SARegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARegisterView.h; sourceTree = "<group>"; };
+		41974B052271E61800E736BA /* SARegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARegisterView.m; sourceTree = "<group>"; };
+		41974B072271E70200E736BA /* SARetrievePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARetrievePasswordViewController.h; sourceTree = "<group>"; };
+		41974B082271E70200E736BA /* SARetrievePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARetrievePasswordViewController.m; sourceTree = "<group>"; };
+		41974B0A2271E72400E736BA /* SARetrievePasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARetrievePasswordView.h; sourceTree = "<group>"; };
+		41974B0B2271E72400E736BA /* SARetrievePasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARetrievePasswordView.m; sourceTree = "<group>"; };
+		41974B0D2272C15900E736BA /* SARegisterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARegisterProtocol.h; sourceTree = "<group>"; };
+		41974B0E2272C17500E736BA /* SARetrievePasswordProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARetrievePasswordProtocol.h; sourceTree = "<group>"; };
 		41D5FB5722520BCD00C0BB1F /* SARankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARankViewController.m; sourceTree = "<group>"; };
 		41D5FB5822520BCD00C0BB1F /* SARankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARankViewController.h; sourceTree = "<group>"; };
 		41D5FB5D22520BD400C0BB1F /* SABookshelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABookshelfViewController.h; sourceTree = "<group>"; };
@@ -274,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				41154A162247C56400EBA899 /* Info.plist */,
+				41974AFA2271DC9C00E736BA /* Common */,
 				41D5FB672252158200C0BB1F /* ThirdParts */,
 				41154A412247CB3000EBA899 /* CommonComponent */,
 				41154A3F2247CABE00EBA899 /* Business */,
@@ -481,6 +499,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		41974AFA2271DC9C00E736BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				41974AFB2271DCC000E736BA /* SARouter.h */,
+				41974AFC2271DCC000E736BA /* SARouter.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		41974B0F2272C19400E736BA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				41EB422F2254EAF90055785E /* SALoginProtocol.h */,
+				41974B0D2272C15900E736BA /* SARegisterProtocol.h */,
+				41974B0E2272C17500E736BA /* SARetrievePasswordProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		41D5FB5622520BCD00C0BB1F /* Rank */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,11 +579,11 @@
 		41EB42282254EA620055785E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				41974B0F2272C19400E736BA /* Protocol */,
 				41EB42352254EE620055785E /* Controller */,
 				41EB42342254EE5C0055785E /* View */,
 				41EB422C2254EAA70055785E /* SAUserInfoModule.h */,
 				41EB422D2254EAA70055785E /* SAUserInfoModule.m */,
-				41EB422F2254EAF90055785E /* SALoginProtocol.h */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -564,6 +601,10 @@
 				41EB423D2254EF140055785E /* SALoginVerificationCodeView.m */,
 				41EB423F2254F0980055785E /* SALoginThirdPartView.h */,
 				41EB42402254F0980055785E /* SALoginThirdPartView.m */,
+				41974B042271E61800E736BA /* SARegisterView.h */,
+				41974B052271E61800E736BA /* SARegisterView.m */,
+				41974B0A2271E72400E736BA /* SARetrievePasswordView.h */,
+				41974B0B2271E72400E736BA /* SARetrievePasswordView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -573,6 +614,10 @@
 			children = (
 				41EB42292254EA710055785E /* SALoginViewController.h */,
 				41EB422A2254EA710055785E /* SALoginViewController.m */,
+				41974B012271E5FC00E736BA /* SARegisterViewController.h */,
+				41974B022271E5FC00E736BA /* SARegisterViewController.m */,
+				41974B072271E70200E736BA /* SARetrievePasswordViewController.h */,
+				41974B082271E70200E736BA /* SARetrievePasswordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -743,12 +788,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-StrangeAcquaintances/Pods-StrangeAcquaintances-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKSpeech/AKSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/MyLayout/MyLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -770,12 +818,15 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -882,6 +933,7 @@
 				41154A472247CC7C00EBA899 /* SABaseTabBarViewController.m in Sources */,
 				41154A4D2247CF0B00EBA899 /* SAMainPageViewController.m in Sources */,
 				41154A3C2247CA0E00EBA899 /* SAMainWrapperViewController.m in Sources */,
+				41974B062271E61800E736BA /* SARegisterView.m in Sources */,
 				41EB42412254F0980055785E /* SALoginThirdPartView.m in Sources */,
 				417D2A2A2254619C0062C073 /* SADownloadItemModel.m in Sources */,
 				41D5FB5F22520BD500C0BB1F /* SABookshelfViewController.m in Sources */,
@@ -889,6 +941,8 @@
 				41D5FB83225215A200C0BB1F /* BHServiceManager.m in Sources */,
 				41154A752247E0EC00EBA899 /* SABaseNavViewController.m in Sources */,
 				4160AAB72255F91000390C1F /* UIView+SAAdd.m in Sources */,
+				41974B0C2271E72400E736BA /* SARetrievePasswordView.m in Sources */,
+				41974AFD2271DCC000E736BA /* SARouter.m in Sources */,
 				41154A182247C56400EBA899 /* main.m in Sources */,
 				41154A4A2247CE6800EBA899 /* SAMainTabBarViewController.m in Sources */,
 				41D5FB8C225215A200C0BB1F /* BHWatchDog.m in Sources */,
@@ -908,8 +962,10 @@
 				41EB423B2254EEBF0055785E /* SALoginPasswordView.m in Sources */,
 				41154A642247DD6D00EBA899 /* SABaseView.m in Sources */,
 				417D2A2122545F0A0062C073 /* SADataOperationModule.m in Sources */,
+				41974B092271E70200E736BA /* SARetrievePasswordViewController.m in Sources */,
 				41EB422B2254EA710055785E /* SALoginViewController.m in Sources */,
 				41D5FB9B225215A200C0BB1F /* BHAppDelegate.m in Sources */,
+				41974B032271E5FC00E736BA /* SARegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

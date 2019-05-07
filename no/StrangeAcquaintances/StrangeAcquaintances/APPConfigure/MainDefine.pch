@@ -23,6 +23,10 @@
 #import <MyLayout/MyLayout.h>
 #import "SABaseNavViewController.h"
 
+#import "SARouter.h"
+
+#import <DDLog.h>
+
 #pragma mark - weak
 
 #define W_S __weak typeof(self) weakSelf = self
@@ -76,6 +80,13 @@ static CGFloat const kNavgtationHeight = 44.f;
 
 //#define kTestColor @"67 191 233";// 天空浪 SkyBlue
 
-//#define OBTAIN_VC(protocol) [[BeeHive shareInstance] createService:@protocol(protocol)]
+#if DEBUG
+#define DLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define APP_DISTRI_ENVIROMENT  NO
+//app开发环境：NO代表开发环境，YES代表发布环境
+#else
+    #define DLog(FORMAT, ...) nil
+    #define APP_DISTRI_ENVIROMENT  YES
+#endif
 
 #endif /* MainDefine_pch */

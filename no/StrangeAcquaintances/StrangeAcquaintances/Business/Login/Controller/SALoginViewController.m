@@ -33,6 +33,8 @@ SA_DYNAMIC_VIEW(SALoginView);
     self.title = @"登录";
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:self action:@selector(onRegisterAction:)];
 
 }
 
@@ -50,6 +52,10 @@ SA_DYNAMIC_VIEW(SALoginView);
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
+}
+
+- (void)onRegisterAction:(UIBarButtonItem *)item {
+    [SARouter jumpToWithNavVC:SA_VC_IndexTypeRegister isPresentFromVC:self then:nil];
 }
 
 @end

@@ -16,7 +16,6 @@
 #import "SALoginPasswordView.h"
 #import "SALoginThirdPartView.h"
 
-
 @interface SALoginView ()
 
 @property (nonatomic, strong) UIScrollView *contentView;

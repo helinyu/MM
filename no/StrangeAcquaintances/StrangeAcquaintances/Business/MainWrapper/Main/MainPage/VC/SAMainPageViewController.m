@@ -34,9 +34,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    UIViewController<SALoginProtocol> *vc = [[BeeHive shareInstance] createService:@protocol(SALoginProtocol)];
-    SABaseNavViewController *navVc = [[SABaseNavViewController alloc] initWithRootViewController:vc];
-    [self presentViewController:navVc animated:YES completion:nil];
+
 }
 
 #pragma mark - tableview datasource & delegate

@@ -1,0 +1,6 @@
+framework module AKSpeech {
+  umbrella header "AKSpeech-umbrella.h"
+
+  export *
+  module * { export * }
+}
