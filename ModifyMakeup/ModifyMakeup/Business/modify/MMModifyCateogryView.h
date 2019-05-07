@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MMModifyCateogryView : MMBaseView
 
+//@property (nonatomic, strong) NSArray<NSString *> *categoryTitles;
+@property (nonatomic, strong, readonly) UICollectionView *bottomCategoryView;
+@property (nonatomic, strong, readonly) UIView *contentView;
+
 @end
 
 NS_ASSUME_NONNULL_END

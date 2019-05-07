@@ -20,6 +20,9 @@ static CGFloat const kCategoryH = 200.f;
 @property (nonatomic, strong) UIImageView *originImgView;
 @property (nonatomic, strong) MMModifyCateogryView *categoryView;
 
+// test Data
+@property (nonatomic, strong) NSArray<NSString *> *categoryTitles;
+
 @end
 
 @implementation MMModifyView
@@ -27,6 +30,11 @@ static CGFloat const kCategoryH = 200.f;
 - (void)baseInit {
     [super baseInit];
     
+    [self viewInit];
+    [self dataInit];
+}
+
+- (void)viewInit {
     _originImgView = [UIImageView new];
     _categoryView = [MMModifyCateogryView new];
     [self addSubviews:@[_originImgView, _categoryView]];
@@ -42,6 +50,12 @@ static CGFloat const kCategoryH = 200.f;
         make.top.equalTo(self);
         make.bottom.equalTo(self).offset(-(kCategoryH + kBottomFix));
     }];
+}
+
+- (void)dataInit {
+    _categoryTitles = @[@"剪切",@"美颜",@"调节",@"贴图",@"画笔",@"文字"];
+    
+//    self.categoryView.categoryTitles = _categoryTitles;
 }
 
 - (void)setImage:(UIImage *)image {

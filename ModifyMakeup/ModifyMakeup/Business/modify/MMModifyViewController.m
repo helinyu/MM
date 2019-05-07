@@ -15,7 +15,7 @@
 
 #import "MMModifyCateogryView.h"
 
-@interface MMModifyViewController ()
+@interface MMModifyViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) MMModifyView *view;
 
@@ -54,5 +54,8 @@ MM_DYNAMIC_VIEW(MMModifyView);
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = NO;
 }
+
+//collection view datasource && delegate
+
 
 @end

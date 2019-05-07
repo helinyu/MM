@@ -26,6 +26,8 @@ static CGFloat const kCategoryH = 44.f;
 - (void)baseInit {
     [super baseInit];
     
+    self.backgroundColor = [UIColor whiteColor];
+    
     UICollectionViewFlowLayout *flowLayout = [UICollectionViewFlowLayout new];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     _bottomCategoryView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
