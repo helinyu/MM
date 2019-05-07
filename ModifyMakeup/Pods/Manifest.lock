@@ -18,11 +18,17 @@ PODS:
   - coobjc (1.1.3):
     - cocore (~> 1.1.3)
   - Masonry (1.1.0)
+  - TZImagePickerController (3.2.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
   - coobjc (~> 1.1.3)
   - Masonry (~> 1.1.0)
+  - TZImagePickerController (~> 3.2.0)
+  - YYKit (~> 1.0.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -30,13 +36,17 @@ SPEC REPOS:
     - cocore
     - coobjc
     - Masonry
+    - TZImagePickerController
+    - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   cocore: d3fb0baa83646887c054a8521a5671996cf98e97
   coobjc: 3f2e1cbaa430e1372fe532acc4f9d797448db1a5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 9fc0c234950738729af6668e270ef5322f745c9b
+PODFILE CHECKSUM: 4acf1a91beda852ba173a44a3429d1c1143e02c5
 
 COCOAPODS: 1.6.1

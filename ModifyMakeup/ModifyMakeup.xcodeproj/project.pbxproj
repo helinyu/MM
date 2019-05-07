@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FDFFD4B099728A1D31E01D5 /* Pods_ModifyMakeup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4553C2926E7B9C34516251FE /* Pods_ModifyMakeup.framework */; };
 		4138296A228132E100793AFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382969228132E100793AFC /* AppDelegate.m */; };
-		4138296D228132E100793AFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138296C228132E100793AFC /* ViewController.m */; };
-		41382970228132E100793AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138296E228132E100793AFC /* Main.storyboard */; };
 		41382972228132E300793AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41382971228132E300793AFC /* Assets.xcassets */; };
 		41382975228132E300793AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41382973228132E300793AFC /* LaunchScreen.storyboard */; };
 		41382978228132E300793AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382977228132E300793AFC /* main.m */; };
@@ -48,9 +47,29 @@
 		413829D3228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
 		413829D4228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
 		413829D5228137E200793AFC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829B0228137E200793AFC /* BHContext.m */; };
-		49A7DA4F62CA3C51FD1FB92E /* libPods-ModifyMakeupTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */; };
-		591F1662DB65B2F80DBB1C77 /* libPods-ModifyMakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */; };
-		6BD8FF5924D7A2B58F785F2F /* libPods-ModifyMakeupUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */; };
+		413829DB2281389E00793AFC /* MMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829DA2281389E00793AFC /* MMBaseViewController.m */; };
+		413829DC2281389E00793AFC /* MMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829DA2281389E00793AFC /* MMBaseViewController.m */; };
+		413829DD2281389E00793AFC /* MMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829DA2281389E00793AFC /* MMBaseViewController.m */; };
+		413829E2228138D000793AFC /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E1228138D000793AFC /* MMMainViewController.m */; };
+		413829E3228138D000793AFC /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E1228138D000793AFC /* MMMainViewController.m */; };
+		413829E4228138D000793AFC /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E1228138D000793AFC /* MMMainViewController.m */; };
+		413829E72281391100793AFC /* MMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E62281391100793AFC /* MMBaseView.m */; };
+		413829E82281391100793AFC /* MMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E62281391100793AFC /* MMBaseView.m */; };
+		413829E92281391100793AFC /* MMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829E62281391100793AFC /* MMBaseView.m */; };
+		413829EC2281391F00793AFC /* MMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829EB2281391F00793AFC /* MMMainView.m */; };
+		413829ED2281391F00793AFC /* MMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829EB2281391F00793AFC /* MMMainView.m */; };
+		413829EE2281391F00793AFC /* MMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829EB2281391F00793AFC /* MMMainView.m */; };
+		413829F22281534F00793AFC /* MMMainToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829F12281534F00793AFC /* MMMainToolView.m */; };
+		413829F5228153DD00793AFC /* MMainTakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829F4228153DD00793AFC /* MMainTakeView.m */; };
+		413829F82281557700793AFC /* MMPhotoLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829F72281557700793AFC /* MMPhotoLayerView.m */; };
+		413829FD2281563300793AFC /* UIView+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829FC2281563300793AFC /* UIView+MMAdd.m */; };
+		41382A0022815FF800793AFC /* CommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 413829FF22815FF800793AFC /* CommonDefine.m */; };
+		41382A05228171DA00793AFC /* UIColor+MMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382A04228171DA00793AFC /* UIColor+MMAdd.m */; };
+		41382A0922817C7E00793AFC /* MMModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382A0822817C7E00793AFC /* MMModifyViewController.m */; };
+		41382A0C22817C9400793AFC /* MMModifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382A0B22817C9400793AFC /* MMModifyView.m */; };
+		41382A0F2281881100793AFC /* MMModifyCateogryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41382A0E2281881100793AFC /* MMModifyCateogryView.m */; };
+		72B46E470089ED48236CF8FE /* Pods_ModifyMakeupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147988E781194D30516A3998 /* Pods_ModifyMakeupTests.framework */; };
+		BE4D9156226DB264DD33C7F6 /* Pods_ModifyMakeupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198289F9ED5786AB0FBD7E75 /* Pods_ModifyMakeupUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,14 +90,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeupTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147988E781194D30516A3998 /* Pods_ModifyMakeupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModifyMakeupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		198289F9ED5786AB0FBD7E75 /* Pods_ModifyMakeupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModifyMakeupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3127593032A0E31CF29382A3 /* Pods-ModifyMakeup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeup.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup.release.xcconfig"; sourceTree = "<group>"; };
 		41382965228132E100793AFC /* ModifyMakeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModifyMakeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41382968228132E100793AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41382969228132E100793AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4138296B228132E100793AFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4138296C228132E100793AFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4138296F228132E100793AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41382971228132E300793AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41382974228132E300793AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41382976228132E300793AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,10 +131,38 @@
 		413829B2228137E200793AFC /* BeeHive-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeHive-Prefix.pch"; sourceTree = "<group>"; };
 		413829B3228137E200793AFC /* BHModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHModuleManager.h; sourceTree = "<group>"; };
 		413829B4228137E200793AFC /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
-		6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413829D92281389E00793AFC /* MMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBaseViewController.h; sourceTree = "<group>"; };
+		413829DA2281389E00793AFC /* MMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBaseViewController.m; sourceTree = "<group>"; };
+		413829E0228138D000793AFC /* MMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMainViewController.h; sourceTree = "<group>"; };
+		413829E1228138D000793AFC /* MMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMainViewController.m; sourceTree = "<group>"; };
+		413829E52281391100793AFC /* MMBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBaseView.h; sourceTree = "<group>"; };
+		413829E62281391100793AFC /* MMBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBaseView.m; sourceTree = "<group>"; };
+		413829EA2281391F00793AFC /* MMMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMainView.h; sourceTree = "<group>"; };
+		413829EB2281391F00793AFC /* MMMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMainView.m; sourceTree = "<group>"; };
+		413829EF228139D300793AFC /* MainDefine.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDefine.pch; sourceTree = "<group>"; };
+		413829F02281534F00793AFC /* MMMainToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMMainToolView.h; sourceTree = "<group>"; };
+		413829F12281534F00793AFC /* MMMainToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMainToolView.m; sourceTree = "<group>"; };
+		413829F3228153DD00793AFC /* MMainTakeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMainTakeView.h; sourceTree = "<group>"; };
+		413829F4228153DD00793AFC /* MMainTakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMainTakeView.m; sourceTree = "<group>"; };
+		413829F62281557700793AFC /* MMPhotoLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPhotoLayerView.h; sourceTree = "<group>"; };
+		413829F72281557700793AFC /* MMPhotoLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPhotoLayerView.m; sourceTree = "<group>"; };
+		413829FB2281563300793AFC /* UIView+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MMAdd.h"; sourceTree = "<group>"; };
+		413829FC2281563300793AFC /* UIView+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMAdd.m"; sourceTree = "<group>"; };
+		413829FE22815E8400793AFC /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		413829FF22815FF800793AFC /* CommonDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonDefine.m; sourceTree = "<group>"; };
+		41382A012281664200793AFC /* MMConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMConstants.h; sourceTree = "<group>"; };
+		41382A022281715D00793AFC /* MMColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMColor.h; sourceTree = "<group>"; };
+		41382A03228171DA00793AFC /* UIColor+MMAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MMAdd.h"; sourceTree = "<group>"; };
+		41382A04228171DA00793AFC /* UIColor+MMAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MMAdd.m"; sourceTree = "<group>"; };
+		41382A0722817C7E00793AFC /* MMModifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMModifyViewController.h; sourceTree = "<group>"; };
+		41382A0822817C7E00793AFC /* MMModifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMModifyViewController.m; sourceTree = "<group>"; };
+		41382A0A22817C9400793AFC /* MMModifyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMModifyView.h; sourceTree = "<group>"; };
+		41382A0B22817C9400793AFC /* MMModifyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMModifyView.m; sourceTree = "<group>"; };
+		41382A0D2281881100793AFC /* MMModifyCateogryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMModifyCateogryView.h; sourceTree = "<group>"; };
+		41382A0E2281881100793AFC /* MMModifyCateogryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMModifyCateogryView.m; sourceTree = "<group>"; };
+		4553C2926E7B9C34516251FE /* Pods_ModifyMakeup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModifyMakeup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68346A255764474CF4260544 /* Pods-ModifyMakeupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupUITests.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupUITests/Pods-ModifyMakeupUITests.release.xcconfig"; sourceTree = "<group>"; };
 		756B21D1D62002CD5ADBC6D0 /* Pods-ModifyMakeupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupTests.release.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupTests/Pods-ModifyMakeupTests.release.xcconfig"; sourceTree = "<group>"; };
-		9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModifyMakeupUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13E8A131FC6F5E8D9388F11 /* Pods-ModifyMakeupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupUITests/Pods-ModifyMakeupUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E50139925FC1649E0DD000 /* Pods-ModifyMakeupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeupTests.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeupTests/Pods-ModifyMakeupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F956AD2D3599F952A76DD872 /* Pods-ModifyMakeup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModifyMakeup.debug.xcconfig"; path = "Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591F1662DB65B2F80DBB1C77 /* libPods-ModifyMakeup.a in Frameworks */,
+				3FDFFD4B099728A1D31E01D5 /* Pods_ModifyMakeup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A7DA4F62CA3C51FD1FB92E /* libPods-ModifyMakeupTests.a in Frameworks */,
+				72B46E470089ED48236CF8FE /* Pods_ModifyMakeupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BD8FF5924D7A2B58F785F2F /* libPods-ModifyMakeupUITests.a in Frameworks */,
+				BE4D9156226DB264DD33C7F6 /* Pods_ModifyMakeupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +199,9 @@
 		1103DA60566148ACC55E8BEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6127C25E4E2E27DAA63C4344 /* libPods-ModifyMakeup.a */,
-				105D366C071E003401822B6F /* libPods-ModifyMakeupTests.a */,
-				9FF91C4A1F63C4CEFDAAFCB9 /* libPods-ModifyMakeupUITests.a */,
+				4553C2926E7B9C34516251FE /* Pods_ModifyMakeup.framework */,
+				147988E781194D30516A3998 /* Pods_ModifyMakeupTests.framework */,
+				198289F9ED5786AB0FBD7E75 /* Pods_ModifyMakeupUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,16 +244,10 @@
 		41382967228132E100793AFC /* ModifyMakeup */ = {
 			isa = PBXGroup;
 			children = (
+				413829D72281385800793AFC /* Business */,
+				413829D62281384A00793AFC /* Configure */,
 				4138299A228137CA00793AFC /* ThirdParts */,
-				41382968228132E100793AFC /* AppDelegate.h */,
-				41382969228132E100793AFC /* AppDelegate.m */,
-				4138296B228132E100793AFC /* ViewController.h */,
-				4138296C228132E100793AFC /* ViewController.m */,
-				4138296E228132E100793AFC /* Main.storyboard */,
-				41382971228132E300793AFC /* Assets.xcassets */,
-				41382973228132E300793AFC /* LaunchScreen.storyboard */,
 				41382976228132E300793AFC /* Info.plist */,
-				41382977228132E300793AFC /* main.m */,
 			);
 			path = ModifyMakeup;
 			sourceTree = "<group>";
@@ -271,6 +310,102 @@
 			path = BeeHive;
 			sourceTree = "<group>";
 		};
+		413829D62281384A00793AFC /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				413829FE22815E8400793AFC /* CommonDefine.h */,
+				413829FF22815FF800793AFC /* CommonDefine.m */,
+				41382A012281664200793AFC /* MMConstants.h */,
+				41382A022281715D00793AFC /* MMColor.h */,
+				413829EF228139D300793AFC /* MainDefine.pch */,
+				41382971228132E300793AFC /* Assets.xcassets */,
+				41382973228132E300793AFC /* LaunchScreen.storyboard */,
+				41382977228132E300793AFC /* main.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		413829D72281385800793AFC /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				41382A0622817C6A00793AFC /* modify */,
+				413829DE228138A300793AFC /* Common */,
+				413829D82281388700793AFC /* Main */,
+				41382968228132E100793AFC /* AppDelegate.h */,
+				41382969228132E100793AFC /* AppDelegate.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		413829D82281388700793AFC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				413829F92281558100793AFC /* View */,
+				413829E0228138D000793AFC /* MMMainViewController.h */,
+				413829E1228138D000793AFC /* MMMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		413829DE228138A300793AFC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				413829FA2281562000793AFC /* Category */,
+				413829DF228138AE00793AFC /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		413829DF228138AE00793AFC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				413829D92281389E00793AFC /* MMBaseViewController.h */,
+				413829DA2281389E00793AFC /* MMBaseViewController.m */,
+				413829E52281391100793AFC /* MMBaseView.h */,
+				413829E62281391100793AFC /* MMBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		413829F92281558100793AFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				413829EA2281391F00793AFC /* MMMainView.h */,
+				413829EB2281391F00793AFC /* MMMainView.m */,
+				413829F62281557700793AFC /* MMPhotoLayerView.h */,
+				413829F72281557700793AFC /* MMPhotoLayerView.m */,
+				413829F02281534F00793AFC /* MMMainToolView.h */,
+				413829F12281534F00793AFC /* MMMainToolView.m */,
+				413829F3228153DD00793AFC /* MMainTakeView.h */,
+				413829F4228153DD00793AFC /* MMainTakeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		413829FA2281562000793AFC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				413829FB2281563300793AFC /* UIView+MMAdd.h */,
+				413829FC2281563300793AFC /* UIView+MMAdd.m */,
+				41382A03228171DA00793AFC /* UIColor+MMAdd.h */,
+				41382A04228171DA00793AFC /* UIColor+MMAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		41382A0622817C6A00793AFC /* modify */ = {
+			isa = PBXGroup;
+			children = (
+				41382A0722817C7E00793AFC /* MMModifyViewController.h */,
+				41382A0822817C7E00793AFC /* MMModifyViewController.m */,
+				41382A0A22817C9400793AFC /* MMModifyView.h */,
+				41382A0B22817C9400793AFC /* MMModifyView.m */,
+				41382A0D2281881100793AFC /* MMModifyCateogryView.h */,
+				41382A0E2281881100793AFC /* MMModifyCateogryView.m */,
+			);
+			path = modify;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,6 +417,7 @@
 				41382961228132E100793AFC /* Sources */,
 				41382962228132E100793AFC /* Frameworks */,
 				41382963228132E100793AFC /* Resources */,
+				434A826A772710D80C227F77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,7 +517,6 @@
 				41382972228132E300793AFC /* Assets.xcassets in Resources */,
 				413829CA228137E200793AFC /* BeeHive-Info.plist in Resources */,
 				413829B8228137E200793AFC /* BeeHive.bundle in Resources */,
-				41382970228132E100793AFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +561,38 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		434A826A772710D80C227F77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/cocore/cocore.framework",
+				"${BUILT_PRODUCTS_DIR}/coobjc/coobjc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cocore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/coobjc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModifyMakeup/Pods-ModifyMakeup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BAEAF36F0D79F10787BDA4A /* [CP] Check Pods Manifest.lock */ = {
@@ -480,15 +647,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				413829CD228137E200793AFC /* BHAppDelegate.m in Sources */,
+				41382A0C22817C9400793AFC /* MMModifyView.m in Sources */,
+				413829DB2281389E00793AFC /* MMBaseViewController.m in Sources */,
+				41382A0922817C7E00793AFC /* MMModifyViewController.m in Sources */,
 				413829D3228137E200793AFC /* BHContext.m in Sources */,
-				4138296D228132E100793AFC /* ViewController.m in Sources */,
+				413829F22281534F00793AFC /* MMMainToolView.m in Sources */,
 				413829BB228137E200793AFC /* BHAnnotation.m in Sources */,
+				41382A05228171DA00793AFC /* UIColor+MMAdd.m in Sources */,
+				413829FD2281563300793AFC /* UIView+MMAdd.m in Sources */,
 				413829BE228137E200793AFC /* BHWatchDog.m in Sources */,
+				413829EC2281391F00793AFC /* MMMainView.m in Sources */,
 				41382978228132E300793AFC /* main.m in Sources */,
+				41382A0F2281881100793AFC /* MMModifyCateogryView.m in Sources */,
 				4138296A228132E100793AFC /* AppDelegate.m in Sources */,
 				413829C7228137E200793AFC /* BHConfig.m in Sources */,
+				413829E2228138D000793AFC /* MMMainViewController.m in Sources */,
+				413829F82281557700793AFC /* MMPhotoLayerView.m in Sources */,
+				41382A0022815FF800793AFC /* CommonDefine.m in Sources */,
 				413829B5228137E200793AFC /* BHServiceManager.m in Sources */,
 				413829C1228137E200793AFC /* BeeHive.m in Sources */,
+				413829E72281391100793AFC /* MMBaseView.m in Sources */,
+				413829F5228153DD00793AFC /* MMainTakeView.m in Sources */,
 				413829C4228137E200793AFC /* BHModuleManager.m in Sources */,
 				413829D0228137E200793AFC /* BHTimeProfiler.m in Sources */,
 			);
@@ -501,9 +680,13 @@
 				413829CE228137E200793AFC /* BHAppDelegate.m in Sources */,
 				41382982228132E300793AFC /* ModifyMakeupTests.m in Sources */,
 				413829C5228137E200793AFC /* BHModuleManager.m in Sources */,
+				413829E3228138D000793AFC /* MMMainViewController.m in Sources */,
 				413829C2228137E200793AFC /* BeeHive.m in Sources */,
 				413829B6228137E200793AFC /* BHServiceManager.m in Sources */,
+				413829E82281391100793AFC /* MMBaseView.m in Sources */,
 				413829D4228137E200793AFC /* BHContext.m in Sources */,
+				413829DC2281389E00793AFC /* MMBaseViewController.m in Sources */,
+				413829ED2281391F00793AFC /* MMMainView.m in Sources */,
 				413829C8228137E200793AFC /* BHConfig.m in Sources */,
 				413829D1228137E200793AFC /* BHTimeProfiler.m in Sources */,
 				413829BF228137E200793AFC /* BHWatchDog.m in Sources */,
@@ -518,9 +701,13 @@
 				413829CF228137E200793AFC /* BHAppDelegate.m in Sources */,
 				4138298D228132E300793AFC /* ModifyMakeupUITests.m in Sources */,
 				413829C6228137E200793AFC /* BHModuleManager.m in Sources */,
+				413829E4228138D000793AFC /* MMMainViewController.m in Sources */,
 				413829C3228137E200793AFC /* BeeHive.m in Sources */,
 				413829B7228137E200793AFC /* BHServiceManager.m in Sources */,
+				413829E92281391100793AFC /* MMBaseView.m in Sources */,
 				413829D5228137E200793AFC /* BHContext.m in Sources */,
+				413829DD2281389E00793AFC /* MMBaseViewController.m in Sources */,
+				413829EE2281391F00793AFC /* MMMainView.m in Sources */,
 				413829C9228137E200793AFC /* BHConfig.m in Sources */,
 				413829D2228137E200793AFC /* BHTimeProfiler.m in Sources */,
 				413829C0228137E200793AFC /* BHWatchDog.m in Sources */,
@@ -544,14 +731,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4138296E228132E100793AFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4138296F228132E100793AFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41382973228132E300793AFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -614,7 +793,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -667,7 +846,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -682,6 +861,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Configure/MainDefine.pch";
 				INFOPLIST_FILE = ModifyMakeup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -700,6 +881,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D2XBEJ6876;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Configure/MainDefine.pch";
 				INFOPLIST_FILE = ModifyMakeup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

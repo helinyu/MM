@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "700FFFFA0479C49C71AF94BD05A88FE7"
-               BuildableName = "libcocore.a"
+               BlueprintIdentifier = "2AB3CB65C42F4E62DBB9D20137187F24"
+               BuildableName = "cocore.framework"
                BlueprintName = "cocore"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
