@@ -84,7 +84,6 @@ static CGFloat kInputVerticalSpace = 20.f;
     _verificationCodeView.backgroundColor = [UIColor orangeColor];
     [linearLayout addSubview:_verificationCodeView];
     
-    //    _passwordView = [SALoginPasswordView new];
     _forgetPasswordBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     _forgetPasswordBtn.myTop = 10.f;
     _forgetPasswordBtn.myRight = 10.f;
@@ -99,11 +98,18 @@ static CGFloat kInputVerticalSpace = 20.f;
     _LoginBtn.myRight = 20.f;
     _LoginBtn.myTop = 20.f;
     _LoginBtn.myHeight = 40.f;
+    _LoginBtn.layer.cornerRadius = 20.f;
+    _LoginBtn.layer.masksToBounds = YES;
     [_LoginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_LoginBtn setBackgroundColor:[UIColor orangeColor]];
-    [_LoginBtn addTarget:self
-                  action:@selector(onLoginAction:) forControlEvents:UIControlEventTouchUpInside];
+    [_LoginBtn setTitle:@"登录" forState:UIControlStateNormal];
+    [_LoginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _LoginBtn.tag = ASLoginViewActionTypeLogin;
     [linearLayout addSubview:_LoginBtn];
+    linearLayout.userInteractionEnabled = YES;
+    _LoginBtn.backgroundColor = [UIColor blueColor];
+    [_LoginBtn addTarget:self
+                  action:@selector(onAction:) forControlEvents:UIControlEventAllEvents];
     
     _toggleVerAndPassBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [_toggleVerAndPassBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -130,9 +136,13 @@ static CGFloat kInputVerticalSpace = 20.f;
     [linearLayout addSubview:_agreementL];
 }
 
+- (void)onAction:(UIButton *)sender {
+    !_actionBlock? :_actionBlock(sender.tag);
+}
 
-- (void)onLoginAction:(UIButton *)sender {
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     
+    return [self.LoginBtn hitTest:point withEvent:event];
 }
 
 @end

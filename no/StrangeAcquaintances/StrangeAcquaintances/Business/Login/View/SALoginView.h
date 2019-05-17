@@ -12,9 +12,19 @@
 
 #import "SABaseView.h"
 
+
+typedef NS_ENUM(NSInteger, ASLoginViewActionType) {
+    ASLoginViewActionTypeLogin =1001,
+    
+    
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SALoginView : SABaseView
+
+typedef void(^IntergerBlock)(NSInteger value);
+@property (nonatomic, copy) IntergerBlock actionBlock;
 
 @end
 

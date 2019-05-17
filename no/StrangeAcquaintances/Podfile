@@ -5,6 +5,10 @@
 target 'StrangeAcquaintances' do
   use_frameworks!
 
+#  network
+  pod 'AFNetworking', '~> 3.2.1'
+  
+#  web image
   pod 'SDWebImage', '~> 4.4.6'
 
   pod 'YYCache', '~> 1.0.4'
@@ -25,8 +29,9 @@ target 'StrangeAcquaintances' do
   pod 'coobjc', '~> 1.1.3'
   pod 'CocoaLumberjack', '~> 3.5.2'
   pod 'RTRootNavigationController', '~> 0.7.1'
-  pod 'AKSpeech', '~> 0.0.7'
+#  pod 'AKSpeech', '~> 0.0.7'
 
+  pod 'MMKV', '~> 1.0.18'
 end
 
 target 'StrangeAcquaintancesTests' do

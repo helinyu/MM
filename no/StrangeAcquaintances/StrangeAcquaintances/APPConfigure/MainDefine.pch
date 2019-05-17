@@ -13,19 +13,19 @@
 #ifndef MainDefine_pch
 #define MainDefine_pch
 
+//- (BOOL)is64bit {
+//#if defined(__LP64__) && __LP64__
+//    return YES;
+//#else
+//    return NO;
+//#endif
+//}
+
 #pragma mark - common header file
 
-#import "SABaseTView.h"
-#import "SABaseCView.h"
-#import "UIView+SAAdd.h"
-#import <Masonry/Masonry.h>
-#import "BeeHive.h"
-#import <MyLayout/MyLayout.h>
-#import "SABaseNavViewController.h"
+#import "SAFileImport.h"
+#import "SADataCacehDefine.h"
 
-#import "SARouter.h"
-
-#import <DDLog.h>
 
 #pragma mark - weak
 

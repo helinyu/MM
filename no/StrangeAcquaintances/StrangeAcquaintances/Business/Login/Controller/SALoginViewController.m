@@ -14,6 +14,7 @@
 
 #import "SALoginProtocol.h"
 #import "BeeHive.h"
+#import "SALoginSerice.h"
 
 #import "SALoginView.h"
 
@@ -36,6 +37,7 @@ SA_DYNAMIC_VIEW(SALoginView);
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:self action:@selector(onRegisterAction:)];
 
+    [self bindInit];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -54,8 +56,53 @@ SA_DYNAMIC_VIEW(SALoginView);
     [super viewDidDisappear:animated];
 }
 
+- (void)bindInit {
+    
+//    self.view.actionBlock = ^(NSInteger value) {
+//        if (value == ASLoginViewActionTypeLogin) {
+            [OBTAIN_MGR(SALoginSerice) requestLoginWithPhone:@(13760412360) password:@"123456a" then:^(BOOL isLogin, NSError * _Nonnull error) {
+                if (error) {
+                    DLog(@"登录失败");
+                    return;
+                }
+                DLog(@"登录成功");
+            }];
+//        }
+//    };
+//     -2147483648-2147483647
+//    BOOL flag = [[MMKV defaultMMKV] setInt64:2147483648 forKey:@"key"];
+        BOOL flag = kSetInteger(2147483647, @"key");
+//    [self test:2147483647 key:@"key"];
+////        BOOL flag = kSetInt64(2147483647, @"key");
+    NSInteger value = kGetInteger(@"key");
+    DLog(@"value :%ld",(long)value);
+    DLog(@"");
+    
+}
+
+- (void)test:(NSInteger)value key:(NSString *)key {
+//    if (is64Bit()) {
+//        kSetInt64(value, key);
+//    }else {
+//        kSetInt32(value, key);
+//    }
+}
+
+
+-(void)setIntergerValue:(NSInteger)value forKey:(NSString *)key {
+#if defined(__LP64__) && __LP64__
+    kSetInt64(value, key);
+#else
+    kSetInt32(value, key);
+#endif
+}
+
 - (void)onRegisterAction:(UIBarButtonItem *)item {
     [SARouter jumpToWithNavVC:SA_VC_IndexTypeRegister isPresentFromVC:self then:nil];
 }
+
+#pragma mark - block
+
+
 
 @end

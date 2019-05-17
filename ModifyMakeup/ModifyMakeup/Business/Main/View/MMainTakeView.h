@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MMainTakeView : MMBaseView
 
+@property (nonatomic, strong, readonly) UIButton *testBtn;
+
 @end
 
 NS_ASSUME_NONNULL_END

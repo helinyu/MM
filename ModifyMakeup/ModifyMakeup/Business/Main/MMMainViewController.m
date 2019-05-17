@@ -15,6 +15,8 @@
 #import <TZImagePickerController/TZImagePickerController.h>
 #import "MMModifyViewController.h"
 
+#import "MMStickerViewController.h"
+
 #import "MMMainToolView.h"
 #import "MMainTakeView.h"
 #import "MMPhotoLayerView.h"
@@ -61,6 +63,11 @@ MM_DYNAMIC_VIEW(MMMainView);
             DLog(@"do camera switch");
         }
     };
+    
+    [self.view.bottomTakeView.testBtn addBlockForControlEvents:UIControlEventTouchUpInside block:^(id  _Nonnull sender) {
+        MMStickerViewController *vc = [MMStickerViewController new];
+        [weakSelf presentViewController:vc animated:YES completion:nil];
+    }];
 }
 
 - (void)onSelectImageAction {
